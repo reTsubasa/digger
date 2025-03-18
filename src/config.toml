@@ -1,0 +1,16 @@
+[xueqiu]
+detail_url = "https://stock.xueqiu.com/v5/stock/quote.json?extend=detail"
+industry_url = "https://xueqiu.com/stock/industry/stockList.json?type=1&size=100"
+minute_url = "https://stock.xueqiu.com/v5/stock/chart/minute.json"
+
+[test]
+detail_url = "https://test.com"
+industry_url = "https://test.com"
+minute_url = "https://test.com"
+
+[chromewebdriver]
+endpoint = "http://localhost"
+port = 51611
+
+[questdb]
+endpoint = "http::addr=172.16.76.15:9000;"
